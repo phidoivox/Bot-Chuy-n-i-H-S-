@@ -9,7 +9,7 @@ from typing import Optional, Tuple, List, Dict
 from math import log2, floor, isnan, isinf
 import threading
 # Thay thế 'YOUR_BOT_TOKEN' bằng token thực của bot của bạn
-bot = telebot.TeleBot('7170561406:AAHcdJ-h_lUtNfGQokWBhei3KT1JxklgUTY')
+bot = telebot.TeleBot('your_token')
 
 # Lưu trữ trạng thái
 user_state = {}
